@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #22212C;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* height: 100vh; */
+}
+
+.container {
+    color: #18181a;
+    font-family: Merriweather Sans;
+    text-align: justify;
+    background-color: white;
+    border: 2px solid green;
+    border-radius: 20px;
+    margin: 50px 90px;
+
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1024px;
+
+    padding: 45px;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+
+    padding-bottom: 25px;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: 700;
+
+    padding-bottom: 15px;
+}
+
+h3 {
+    font-size: 16px;
+    font-weight: 700;
+
+    text-align: center;
+    padding: 20px 30px;
+}
+
+.introduction {
+    padding-bottom: 30px;
+}
+
+.timeline {
+    padding-bottom: 30px;
+}
+
+.timeline img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 100%;
+    max-width: 950px;
+    height: auto;
+
+    padding: 30px 0px;
+}
+
+.definition {
+    padding-bottom: 30px;
+}
+
+.caption {
+    font-size: 12px;
+    font-weight: 300;
+    text-align: center;
+
+    padding: 0px 0px 15px;
+}
+
+.definition img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+
+    padding: 30px 0px;
+}
+
+.architecture {
+    padding-bottom: 30px;
+}
+
+.architecture .middle {
+    padding: 15px 0px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.architecture img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+
+    padding: 30px 0px;
+}
+
+.types ul {
+    display: grid;
+    list-style: none;
+    padding: 30px 0px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px 30px;
+}
+
+.types ul li {
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+
+.types ul p {
+    padding: 0px 20px 20px;
+}
+
+footer {
+    padding: 30px 0px 0px;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+footer a {
+    text-decoration: none;
+    color: #18181a;
+}
