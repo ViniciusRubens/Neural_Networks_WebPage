@@ -189,8 +189,24 @@ footer a {
         font-weight: 300;
     }
 
+    .architecture .middle {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+    }
+
     .architecture img {
-        max-width: 250px;
+        max-width: 450px;
+    }
+
+    .types ul {
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        padding: 30px 0px;
+        gap: 30px;
     }
 }
 
@@ -237,7 +253,7 @@ footer a {
         flex-direction: column;
         list-style: none;
         padding: 30px 0px;
-        grid-gap: 30px;
+        gap: 30px;
     }
 }
 
